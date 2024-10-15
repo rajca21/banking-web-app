@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import { Code, Loader } from 'lucide-react';
 import { motion } from 'framer-motion';

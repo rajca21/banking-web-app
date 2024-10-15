@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 import { useAccountsStore } from '../../../store/accountStore';

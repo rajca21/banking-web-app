@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Mail, Lock, Loader } from 'lucide-react';
-import toast from 'react-hot-toast';
 
 import { useAuthStore } from '../../store/authStore';
 import Input from '../../components/shared/Input';
@@ -81,7 +80,7 @@ const Login = () => {
 
       <div className='px-8 py-4 bg-gray-900 bg-opacity-50 flex justify-center'>
         <p className='text-sm text-gray-400'>
-          Don't have an account?{' '}
+          Don’t have an account?{' '}
           <Link to='/signup' className='text-violet-400 hover:underline'>
             Sign up
           </Link>

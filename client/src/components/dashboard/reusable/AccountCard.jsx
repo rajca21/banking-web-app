@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import toast from 'react-hot-toast';
 import { Coins, DollarSign, Euro, Loader, Minus, Plus } from 'lucide-react';
 

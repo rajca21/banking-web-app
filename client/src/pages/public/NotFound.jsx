@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const NotFound = () => {
@@ -14,7 +13,7 @@ const NotFound = () => {
           Page not Found
         </p>
         <p className='mb-40 text-lg font-light text-gray-400'>
-          Sorry, we can't find that page. You'll find lots to explore on the{' '}
+          Sorry, we can’t find that page. You’ll find lots to explore on the{' '}
           <span
             className='underline cursor-pointer'
             onClick={() => {

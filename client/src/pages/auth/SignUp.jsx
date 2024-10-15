@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Loader, Lock, Mail, User } from 'lucide-react';
@@ -23,7 +23,9 @@ const SignUp = () => {
     try {
       await signup(email, password, firstName, lastName);
       navigate(`/verify-email/${email}`);
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (

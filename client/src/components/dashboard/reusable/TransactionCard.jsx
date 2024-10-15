@@ -1,5 +1,4 @@
-import React from 'react';
-
+/* eslint-disable react/prop-types */
 import { useAuthStore } from '../../../store/authStore';
 
 const TransactionCard = ({ transaction }) => {

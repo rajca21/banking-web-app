@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   ChartCandlestick,
@@ -7,7 +6,6 @@ import {
   House,
   IdCard,
   LogOut,
-  Settings,
 } from 'lucide-react';
 
 import logo from '../../assets/logo.png';

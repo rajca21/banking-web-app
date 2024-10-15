@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { HiArrowsRightLeft } from 'react-icons/hi2';
 
 import { convert, getAllCurrencies } from '../../../utils/currenciesAPI';

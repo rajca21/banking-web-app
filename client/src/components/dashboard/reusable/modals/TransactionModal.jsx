@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { Banknote, Code, Loader, Text, Wallet } from 'lucide-react';
 import { motion } from 'framer-motion';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { useGlobalContext } from '../../hooks/useGlobalContext.hook';
 import HomeView from '../../components/dashboard/views/HomeView';
 import TransactionsView from '../../components/dashboard/views/TransactionsView';

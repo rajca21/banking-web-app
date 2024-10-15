@@ -1,5 +1,4 @@
-import React from 'react';
-
+/* eslint-disable react/prop-types */
 import FloatingCircle from '../shared/FloatingCirlce';
 
 const LandingLayout = ({ children }) => {
