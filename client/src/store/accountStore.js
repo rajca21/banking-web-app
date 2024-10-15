@@ -1,7 +1,10 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/accounts';
+const API_URL =
+  import.meta.env.MODE === 'development'
+    ? 'http://localhost:8000/api/accounts'
+    : '/api/accounts';
 axios.defaults.withCredentials = true;
 
 export const useAccountsStore = create((set) => ({
