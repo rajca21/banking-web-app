@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.5.4",
     "axios": "^1.7.7",
+    "banking-web-app": "file:...",
     "framer-motion": "^11.3.21",
     "lucide-react": "^0.424.0",
     "react": "^18.3.1",
